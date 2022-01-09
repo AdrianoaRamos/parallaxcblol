@@ -1,0 +1,182 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+
+  h2{
+    text-align: center;
+  }
+  
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimgult{
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('../img/image1.jpg');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('../img/image2.jpg');
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url('../img/image3.jpg');
+    min-height:400px;
+  }
+
+  .pimg4{
+    background-image:url('../img/image4.jpg');
+    min-height:400px;
+  }
+  
+  .pimg5{
+    background-image:url('../img/image5.jpg');
+    min-height:400px;
+  }
+
+  .pimg6{
+    background-image:url('../img/image6.jpg');
+    min-height:400px;
+  }
+
+  .pimg7{
+    background-image:url('../img/image7.jpg');
+    min-height:400px;
+  }
+
+  .pimg8{
+    background-image:url('../img/image8.svg');
+    min-height:400px;
+  }
+
+  .pimg9{
+    background-image:url('../img/image9.jpg');
+    min-height:400px;
+  }
+
+  .pimg10{
+    background-image:url('../img/image10.jpg');
+    min-height:400px;
+  }
+
+  .pimg11{
+    background-image:url('../img/image11.jpg');
+    min-height:400px;
+  }
+
+  .pimgult{
+    background-image:url('../img/imageult.jpg');
+    min-height:400px;
+  }
+
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-topo{
+    background-color:#333331;
+    color:#fff;
+    text-align: justify;
+  }
+  
+  .section-red{
+    background-color:#85232E;
+    color:#fff;
+    text-align: justify;
+  }
+
+  .section-kabum{
+    background-color:#D04422;
+    color:#fff;
+    text-align: justify;
+  }
+  
+  .section-loud{
+    background-color:#2D8918;
+    color:#fff;
+    text-align: justify;
+  }
+
+  .section-fla{
+    background-color:#7D090F;
+    color:#fff;
+    text-align: justify;
+  }
+
+  .section-furia{
+    background-color:#08316F;
+    color:#fff;
+    text-align: justify;
+  }
+
+  .section-intz{
+    background-color:#8F9EA2;
+    color:#fff;
+    text-align: justify;
+  }
+
+  .section-liberty{
+    background-color:#CFCFCD;
+    color:#333331;
+    text-align: justify;
+  }
+
+  .section-miners{
+    background-color:#301B58;
+    color:#fff;
+    text-align: justify;
+  }
+
+  .section-pain{
+    background-color:#D00840;
+    color:#fff;
+    text-align: justify;
+  }
+
+  .section-rensga{
+    background-color:#FCB815;
+    color:#fff;
+    text-align: justify;
+  }
+
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11{
+      background-attachment:scroll;
+    }
+  }
+  
